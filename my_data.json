@@ -1,0 +1,98 @@
+[
+    {
+        "type": "RStart",
+        "name": "Start",
+        "id": "2"
+    },
+    {
+        "type": "RBox",
+        "name": "FKT01-07 Fog nozzle (Pulse)",
+        "id": "30"
+    },
+    {
+        "type": "RBox",
+        "name": "FKT01-72 Drain all",
+        "id": "42"
+    },
+    {
+        "type": "RAndOut",
+        "name": "",
+        "id": "37",
+        "nodes": [
+            {
+                "type": "RBox",
+                "name": "FKT01-09 Cooling",
+                "id": "39"
+            },
+            {
+                "type": "RAndOut",
+                "name": "",
+                "id": "45",
+                "nodes": [
+                    {
+                        "type": "RBox",
+                        "name": "FKT01-22 Dosing mobile Cont.",
+                        "id": "47"
+                    }
+                ]
+            },
+            {
+                "type": "RBox",
+                "name": "FKT01-12 Dosing other liquids I",
+                "id": "40"
+            },
+            {
+                "type": "RAndIn",
+                "name": "",
+                "id": "46"
+            },
+            {
+                "type": "RBox",
+                "name": "FKT01-30 Ind.out of FSA-5",
+                "id": "41"
+            }
+        ]
+    },
+    {
+        "type": "RAndOut",
+        "name": "",
+        "id": "8",
+        "nodes": [
+            {
+                "type": "RBox",
+                "name": "FKT01-21 Liquid ind. hopper",
+                "id": "31"
+            },
+            {
+                "type": "RBox",
+                "name": "FKT01-109 Cooling STOP",
+                "id": "32"
+            }
+        ]
+    },
+    {
+        "type": "RBox",
+        "name": "FKT01-03 Mixing interval",
+        "id": "5"
+    },
+    {
+        "type": "RBox",
+        "name": "FKT01-109 Cooling STOP",
+        "id": "33"
+    },
+    {
+        "type": "RAndIn",
+        "name": "",
+        "id": "9"
+    },
+    {
+        "type": "RAndIn",
+        "name": "",
+        "id": "38"
+    },
+    {
+        "type": "REnd",
+        "name": "End",
+        "id": "3"
+    }
+]
