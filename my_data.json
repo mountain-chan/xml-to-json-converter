@@ -24,6 +24,13 @@
                         "type": "RBox",
                         "name": "FKT01-92 CIP Filling",
                         "id": "25",
+                        "runtime": 4,
+                        "is_done": false
+                    },
+                    {
+                        "type": "RBox",
+                        "name": "FKT01-922 CIP Filling",
+                        "id": "25",
                         "runtime": 5,
                         "is_done": false
                     }
@@ -34,13 +41,6 @@
                 "name": "FKT01-71 Drain tank",
                 "id": "24",
                 "runtime": 4,
-                "is_done": false
-            },
-            {
-                "type": "RAndIn",
-                "name": "",
-                "id": "12",
-                "runtime": 3,
                 "is_done": false
             },
             {
@@ -63,6 +63,13 @@
         "type": "RAndIn",
         "name": "",
         "id": "8",
+        "runtime": 3,
+        "is_done": false
+    },
+    {
+        "type": "RAndIn",
+        "name": "",
+        "id": "12",
         "runtime": 3,
         "is_done": false
     },

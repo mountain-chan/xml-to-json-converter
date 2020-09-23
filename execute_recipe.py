@@ -18,21 +18,21 @@ def search_by_id(nodes, _id):
 def ran_node(nodes, r_in_id):
     n = len(nodes)
     for i, node in enumerate(nodes):
-        if node["type"] == "RBox":
-            if nodes[i - 1]["type"] == "RAndIn":
-                while not nodes[i - 1]["is_done"]:
+        j = i - 1
+        if node["type"] != "RAndIn":
+            while j >= 0 and nodes[j]["type"] == "RAndIn":
+                while not nodes[j]["is_done"]:
                     pass
+                j -= 1
 
+        if node["type"] == "RBox":
             print("---------")
             print(node["name"])
             print(f"runtime: {node['runtime']}")
             time.sleep(node["runtime"])
             node["is_done"] = True
 
-        if node["type"] == "RAndOut":
-            if nodes[i - 1]["type"] == "RAndIn":
-                while not nodes[i - 1]["is_done"]:
-                    pass
+        elif node["type"] == "RAndOut":
             tn = threading.Thread(target=ran_node, args=(node["nodes"], node["id"]))
             tn.start()
 
