@@ -1,0 +1,67 @@
+[
+  {
+    "type": "RStart",
+    "name": "1",
+    "id": "2",
+    "runtime": 4,
+      "is_done": false
+  },
+  {
+    "type": "RBox",
+    "name": "2",
+    "id": "30",
+    "runtime": 1,
+      "is_done": false
+  },
+  {
+    "type": "RAndOut",
+    "name": "",
+    "id": "37",
+    "runtime": 2,
+      "is_done": false,
+    "nodes": [
+      {
+        "type": "RBox",
+        "name": "4",
+        "id": "39",
+        "runtime": 4,
+          "is_done": false
+      },
+      {
+        "type": "RBox",
+        "name": "5",
+        "id": "39",
+        "runtime": 4,
+          "is_done": false
+      }
+    ]
+  },
+  {
+    "type": "RBox",
+    "name": "3",
+    "id": "5",
+    "runtime": 2,
+      "is_done": false
+  },
+  {
+    "type": "RAndIn",
+    "name": "",
+    "id": "38",
+    "runtime": 4,
+      "is_done": false
+  },
+    {
+    "type": "RBox",
+    "name": "6",
+    "id": "5",
+    "runtime": 2,
+      "is_done": false
+  },
+  {
+    "type": "REnd",
+    "name": "9",
+    "id": "3",
+    "runtime": 1,
+      "is_done": false
+  }
+]

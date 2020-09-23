@@ -1,12 +1,15 @@
 import json
 import xmltodict
+import random
 
-with open("test.xml") as xml_file:
+with open("demo2.xml") as xml_file:
     data_dict = xmltodict.parse(xml_file.read())
     xml_file.close()
 
-
 node_data = data_dict["SaveRezept"]["mRezept"]["Node"]
+
+with open("node_data.json", "w") as json_file:
+    json.dump(node_data, json_file, indent=4)
 
 
 def get_my_data(nodes_full_info):
@@ -17,7 +20,9 @@ def get_my_data(nodes_full_info):
         node = {
             "type": i["@xsi:type"],
             "name": i["@Name"],
-            "id": i["@Id"]
+            "id": i["@Id"],
+            "runtime": random.randint(1, 4),
+            "is_done": False
         }
         if i["@xsi:type"] == "RAndOut":
             node["nodes"] = get_my_data(i["OutSection"]["Node"])
