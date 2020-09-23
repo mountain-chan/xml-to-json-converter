@@ -2,7 +2,7 @@ import json
 import xmltodict
 import random
 
-with open("demo2.xml") as xml_file:
+with open("Recipe_followingVideo_1.xml") as xml_file:
     data_dict = xmltodict.parse(xml_file.read())
     xml_file.close()
 

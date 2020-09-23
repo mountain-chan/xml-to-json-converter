@@ -3,7 +3,7 @@
         "type": "RStart",
         "name": "Start",
         "id": "2",
-        "runtime": 2,
+        "runtime": 4,
         "is_done": false
     },
     {
@@ -14,69 +14,132 @@
         "is_done": false,
         "nodes": [
             {
+                "type": "RBox",
+                "name": "FKT01-11 Dosing water",
+                "id": "6",
+                "runtime": 1,
+                "is_done": false
+            },
+            {
+                "type": "RBox",
+                "name": "FKT01-11 Dosing water",
+                "id": "9",
+                "runtime": 3,
+                "is_done": false
+            },
+            {
+                "type": "RBox",
+                "name": "FKT01-11 Dosing water",
+                "id": "10",
+                "runtime": 4,
+                "is_done": false
+            },
+            {
                 "type": "RAndOut",
                 "name": "",
-                "id": "11",
-                "runtime": 2,
+                "id": "29",
+                "runtime": 4,
                 "is_done": false,
                 "nodes": [
                     {
                         "type": "RBox",
-                        "name": "FKT01-92 CIP Filling",
-                        "id": "25",
-                        "runtime": 4,
-                        "is_done": false
-                    },
-                    {
-                        "type": "RBox",
-                        "name": "FKT01-922 CIP Filling",
-                        "id": "25",
-                        "runtime": 5,
+                        "name": "FKT01-02 Mixing",
+                        "id": "28",
+                        "runtime": 3,
                         "is_done": false
                     }
                 ]
             },
             {
                 "type": "RBox",
-                "name": "FKT01-71 Drain tank",
-                "id": "24",
+                "name": "FKT01-31 Ind.out powd.hopper",
+                "id": "12",
+                "runtime": 1,
+                "is_done": false
+            },
+            {
+                "type": "RBox",
+                "name": "FKT01-30 Ind.out of FSA-5",
+                "id": "13",
+                "runtime": 2,
+                "is_done": false
+            },
+            {
+                "type": "RBox",
+                "name": "FKT01-01 Dispersing/Circulation",
+                "id": "14",
                 "runtime": 4,
                 "is_done": false
             },
             {
                 "type": "RBox",
-                "name": "FKT01-07 Fog nozzle (Pulse)",
-                "id": "21",
-                "runtime": 4,
+                "name": "FKT01-92 CIP Filling",
+                "id": "15",
+                "runtime": 2,
+                "is_done": false
+            },
+            {
+                "type": "RBox",
+                "name": "FKT01-30 Ind.out of FSA-5",
+                "id": "16",
+                "runtime": 1,
+                "is_done": false
+            },
+            {
+                "type": "RBox",
+                "name": "FKT01-01 Dispersing/Circulation",
+                "id": "17",
+                "runtime": 2,
+                "is_done": false
+            },
+            {
+                "type": "RBox",
+                "name": "FKT01-92 CIP Filling",
+                "id": "19",
+                "runtime": 3,
+                "is_done": false
+            },
+            {
+                "type": "RBox",
+                "name": "FKT01-30 Ind.out of FSA-5",
+                "id": "20",
+                "runtime": 1,
+                "is_done": false
+            },
+            {
+                "type": "RBox",
+                "name": "FKT01-11 Dosing water",
+                "id": "22",
+                "runtime": 1,
+                "is_done": false
+            },
+            {
+                "type": "RBox",
+                "name": "FKT01-01 Dispersing/Circulation",
+                "id": "23",
+                "runtime": 3,
+                "is_done": false
+            },
+            {
+                "type": "RAndIn",
+                "name": "",
+                "id": "30",
+                "runtime": 1,
                 "is_done": false
             }
         ]
     },
     {
         "type": "RBox",
-        "name": "FKT01-01 Dispersing/Circulation",
+        "name": "FKT01-09 Cooling",
         "id": "4",
-        "runtime": 3,
+        "runtime": 4,
         "is_done": false
     },
     {
         "type": "RAndIn",
         "name": "",
         "id": "8",
-        "runtime": 3,
-        "is_done": false
-    },
-    {
-        "type": "RAndIn",
-        "name": "",
-        "id": "12",
-        "runtime": 3,
-        "is_done": false
-    },
-    {
-        "type": "RBox",
-        "name": "FKT01-40 Manual dosing",
-        "id": "23",
         "runtime": 2,
         "is_done": false
     },
