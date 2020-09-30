@@ -44,6 +44,11 @@
                     {
                         "type": "RBox",
                         "name": "FKT01-02 Mixing",
+                        "parameters": {
+                            "speed_mixer": 200,
+                            "runtime": 90,
+                            "speed_characteristic": 0
+                        },
                         "id": "28",
                         "runtime": 3,
                         "is_done": false

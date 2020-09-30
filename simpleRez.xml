@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SaveRezept xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PSatz>
+    <RezeptId>0</RezeptId>
+    <lParRezInfoVar />
+    <lHistory />
+    <ParamId>0</ParamId>
+    <ParamDate>2020-05-23T10:51:26.4793843Z</ParamDate>
+    <IsDisabled>false</IsDisabled>
+    <Version>1</Version>
+    <Revision>0</Revision>
+    <State>enDesign</State>
+    <User>Admin</User>
+    <XmlParamSaveCount>2</XmlParamSaveCount>
+    <XmlParamLastSave>2020-05-23T10:52:28.2494365Z</XmlParamLastSave>
+  </PSatz>
+  <info>
+    <SPSName>SPS1</SPSName>
+    <BereichName>FG01</BereichName>
+  </info>
+  <mRezept Id="1" Name="noname">
+    <DnlOfs>0</DnlOfs>
+    <GopId>0</GopId>
+    <XmlInitPlate>true</XmlInitPlate>
+    <Node xsi:type="RStart" Id="2" Name="Start">
+      <DnlOfs>0</DnlOfs>
+      <GopId>0</GopId>
+      <Plate xsi:type="RPlateSet" PlateTyp="enPlateProt">
+        <lZuwA Id="0">
+          <IsNot>false</IsNot>
+          <Operand>opNone</Operand>
+          <ListTyp>lnSet</ListTyp>
+          <Exp xsi:type="ESetFix" Id="2">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="3">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="4">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="5">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="6">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="7">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="8">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="9">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="10">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="11">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="12">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="13">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="14">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="15">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="16">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="17">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="18">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="19">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="20">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="21">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="22">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="23">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="24">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="25">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="26">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="27">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="28">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="29">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="30">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="31">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <XmlInit>true</XmlInit>
+        </lZuwA>
+        <PlateArg>0</PlateArg>
+        <LastId>31</LastId>
+        <XmlInit>true</XmlInit>
+        <platePara xsi:type="PlateProtParameter">
+          <Id>0</Id>
+          <UseBatchProt>false</UseBatchProt>
+          <Text>---------- Recipe $(Recipe) started with parameter set $(Parname) ----------</Text>
+        </platePara>
+      </Plate>
+      <XmlInitPlate>true</XmlInitPlate>
+    </Node>
+    <Node xsi:type="RAndOut" Id="8" Name="">
+      <DnlOfs>0</DnlOfs>
+      <OutSection Id="7" Name="Section">
+        <DnlOfs>0</DnlOfs>
+        <GopId>0</GopId>
+        <XmlInitPlate>true</XmlInitPlate>
+        <Node xsi:type="RBox" Id="11" Name="FKT01-09 Cooling">
+          <DnlOfs>0</DnlOfs>
+          <GopId>141</GopId>
+          <Plate xsi:type="RPlateGOP" PlateTyp="enPlateGOP">
+            <lZuwA Id="0">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnSet</ListTyp>
+              <Exp xsi:type="ESetFix" Id="2">
+                <IsNot>false</IsNot>
+                <Operand>opNone</Operand>
+                <val>
+                  <ObjId>141</ObjId>
+                  <ValId>352</ValId>
+                  <Konst>10</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>false</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>true</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>true</IsSet>
+                </val>
+                <mEx Id="3">
+                  <IsNot>false</IsNot>
+                  <Operand>opNone</Operand>
+                  <ListTyp>lnGleich</ListTyp>
+                  <Exp xsi:type="EValue" Id="4">
+                    <IsNot>false</IsNot>
+                    <Operand>opPlus</Operand>
+                    <val>
+                      <ObjId>0</ObjId>
+                      <ValId>0</ValId>
+                      <Konst>10</Konst>
+                      <maxS>0</maxS>
+                      <IsKonst>true</IsKonst>
+                      <IsDig>false</IsDig>
+                      <IsString>false</IsString>
+                      <IsWrite>false</IsWrite>
+                      <DigBit>false</DigBit>
+                      <IsSet>false</IsSet>
+                    </val>
+                    <mEditTyp>edAI edKonst</mEditTyp>
+                  </Exp>
+                  <XmlInit>true</XmlInit>
+                </mEx>
+                <IsDigi>false</IsDigi>
+                <XmlInit>true</XmlInit>
+                <mFix>10</mFix>
+                <mCanDelete>false</mCanDelete>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </lZuwA>
+            <PlateArg>0</PlateArg>
+            <LastId>4</LastId>
+            <XmlInit>true</XmlInit>
+            <GopId>141</GopId>
+          </Plate>
+          <XmlInitPlate>true</XmlInitPlate>
+        </Node>
+        <DnlEndPos>0</DnlEndPos>
+        <XmlStart>true</XmlStart>
+        <IsTemp>false</IsTemp>
+        <IsOpen>true</IsOpen>
+        <XmlInit>true</XmlInit>
+      </OutSection>
+      <IsBack>false</IsBack>
+      <XmlInit>true</XmlInit>
+    </Node>
+    <Node xsi:type="RBox" Id="4" Name="FKT01-02 Mixing">
+      <DnlOfs>0</DnlOfs>
+      <GopId>130</GopId>
+      <Plate xsi:type="RPlateGOP" PlateTyp="enPlateGOP">
+        <lZuwA Id="0">
+          <IsNot>false</IsNot>
+          <Operand>opNone</Operand>
+          <ListTyp>lnSet</ListTyp>
+          <Exp xsi:type="ESetFix" Id="2">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <val>
+              <ObjId>130</ObjId>
+              <ValId>337</ValId>
+              <Konst>150</Konst>
+              <maxS>0</maxS>
+              <IsKonst>false</IsKonst>
+              <IsDig>false</IsDig>
+              <IsString>false</IsString>
+              <IsWrite>true</IsWrite>
+              <DigBit>false</DigBit>
+              <IsSet>true</IsSet>
+            </val>
+            <mEx Id="3">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="4">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>150</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mFix>150</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="5">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <val>
+              <ObjId>130</ObjId>
+              <ValId>338</ValId>
+              <Konst>0</Konst>
+              <maxS>0</maxS>
+              <IsKonst>false</IsKonst>
+              <IsDig>false</IsDig>
+              <IsString>false</IsString>
+              <IsWrite>true</IsWrite>
+              <DigBit>false</DigBit>
+              <IsSet>true</IsSet>
+            </val>
+            <mEx Id="6">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="7">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="8">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <val>
+              <ObjId>130</ObjId>
+              <ValId>938</ValId>
+              <Konst>0</Konst>
+              <maxS>0</maxS>
+              <IsKonst>false</IsKonst>
+              <IsDig>false</IsDig>
+              <IsString>false</IsString>
+              <IsWrite>true</IsWrite>
+              <DigBit>false</DigBit>
+              <IsSet>true</IsSet>
+            </val>
+            <mEx Id="9">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="10">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <XmlInit>true</XmlInit>
+        </lZuwA>
+        <PlateArg>0</PlateArg>
+        <LastId>10</LastId>
+        <XmlInit>true</XmlInit>
+        <GopId>130</GopId>
+      </Plate>
+      <XmlInitPlate>true</XmlInitPlate>
+    </Node>
+    <Node xsi:type="RAndIn" Id="9" Name="">
+      <DnlOfs>0</DnlOfs>
+      <XmlOutArr>
+        <unsignedInt>7</unsignedInt>
+      </XmlOutArr>
+      <IsBack>false</IsBack>
+    </Node>
+    <Node xsi:type="RBox" Id="10" Name="??? waiting step">
+      <DnlOfs>0</DnlOfs>
+      <GopId>0</GopId>
+      <Plate xsi:type="RPlateSet" PlateTyp="enPlateWait">
+        <lTime Id="0">
+          <IsNot>false</IsNot>
+          <Operand>opNone</Operand>
+          <ListTyp>lnTime</ListTyp>
+          <Exp xsi:type="ESetFix" Id="2">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="3">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="4">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>10</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>Time in (seconds) :</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <XmlInit>true</XmlInit>
+        </lTime>
+        <PlateArg>0</PlateArg>
+        <LastId>4</LastId>
+        <UseSeconds>true</UseSeconds>
+        <XmlInit>true</XmlInit>
+      </Plate>
+      <XmlInitPlate>true</XmlInitPlate>
+    </Node>
+    <Node xsi:type="RBox" Id="5" Name="FKT01-07 Fog nozzle (Pulse)">
+      <DnlOfs>0</DnlOfs>
+      <GopId>142</GopId>
+      <Plate xsi:type="RPlateGOP" PlateTyp="enPlateGOP">
+        <lZuwA Id="0">
+          <IsNot>false</IsNot>
+          <Operand>opNone</Operand>
+          <ListTyp>lnSet</ListTyp>
+          <Exp xsi:type="ESetFix" Id="2">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <val>
+              <ObjId>142</ObjId>
+              <ValId>349</ValId>
+              <Konst>10</Konst>
+              <maxS>0</maxS>
+              <IsKonst>false</IsKonst>
+              <IsDig>false</IsDig>
+              <IsString>false</IsString>
+              <IsWrite>true</IsWrite>
+              <DigBit>false</DigBit>
+              <IsSet>true</IsSet>
+            </val>
+            <mEx Id="3">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="4">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>10</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mFix>10</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <XmlInit>true</XmlInit>
+        </lZuwA>
+        <PlateArg>0</PlateArg>
+        <LastId>4</LastId>
+        <XmlInit>true</XmlInit>
+        <GopId>142</GopId>
+      </Plate>
+      <XmlInitPlate>true</XmlInitPlate>
+    </Node>
+    <Node xsi:type="REnd" Id="3" Name="End">
+      <DnlOfs>0</DnlOfs>
+      <GopId>0</GopId>
+      <Plate xsi:type="RPlateSet" PlateTyp="enPlateProt">
+        <lZuwA Id="0">
+          <IsNot>false</IsNot>
+          <Operand>opNone</Operand>
+          <ListTyp>lnSet</ListTyp>
+          <Exp xsi:type="ESetFix" Id="2">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="3">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="4">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="5">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="6">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="7">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="8">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="9">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="10">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="11">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="12">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="13">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="14">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="15">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="16">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="17">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="18">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="19">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="20">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="21">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="22">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="23">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="24">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="25">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="26">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="27">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="28">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <Exp xsi:type="ESetFix" Id="29">
+            <IsNot>false</IsNot>
+            <Operand>opNone</Operand>
+            <mEx Id="30">
+              <IsNot>false</IsNot>
+              <Operand>opNone</Operand>
+              <ListTyp>lnGleich</ListTyp>
+              <Exp xsi:type="EValue" Id="31">
+                <IsNot>false</IsNot>
+                <Operand>opPlus</Operand>
+                <val>
+                  <ObjId>0</ObjId>
+                  <ValId>0</ValId>
+                  <Konst>0</Konst>
+                  <maxS>0</maxS>
+                  <IsKonst>true</IsKonst>
+                  <IsDig>false</IsDig>
+                  <IsString>false</IsString>
+                  <IsWrite>false</IsWrite>
+                  <DigBit>false</DigBit>
+                  <IsSet>false</IsSet>
+                </val>
+                <mEditTyp>edAI edKonst</mEditTyp>
+              </Exp>
+              <XmlInit>true</XmlInit>
+            </mEx>
+            <IsDigi>false</IsDigi>
+            <XmlInit>true</XmlInit>
+            <mName>V?</mName>
+            <mFix>0</mFix>
+            <mCanDelete>false</mCanDelete>
+          </Exp>
+          <XmlInit>true</XmlInit>
+        </lZuwA>
+        <PlateArg>0</PlateArg>
+        <LastId>31</LastId>
+        <XmlInit>true</XmlInit>
+        <platePara xsi:type="PlateProtParameter">
+          <Id>0</Id>
+          <UseBatchProt>false</UseBatchProt>
+          <Text>---------- Recipe $(Recipe) ended ----------</Text>
+        </platePara>
+      </Plate>
+      <XmlInitPlate>true</XmlInitPlate>
+    </Node>
+    <DnlEndPos>0</DnlEndPos>
+    <XmlStart>true</XmlStart>
+    <IsTemp>false</IsTemp>
+    <IsOpen>true</IsOpen>
+    <XmlInit>true</XmlInit>
+    <LastId>11</LastId>
+    <RezeptId>0</RezeptId>
+    <RezeptDate>2020-05-23T10:51:26.5729845Z</RezeptDate>
+    <XMLRezeptSaveCount>2</XMLRezeptSaveCount>
+    <XMLRezeptLastSave>2020-05-23T10:52:28.2494365Z</XMLRezeptLastSave>
+    <RezInit>true</RezInit>
+  </mRezept>
+  <lUsedBMO>
+    <SaveUsedBMO Id="130" Name="FKT01-02 Mixing">
+      <Typ>Grundoperation</Typ>
+    </SaveUsedBMO>
+    <SaveUsedBMO Id="142" Name="FKT01-07 Fog nozzle (Pulse)">
+      <Typ>Grundoperation</Typ>
+    </SaveUsedBMO>
+    <SaveUsedBMO Id="141" Name="FKT01-09 Cooling">
+      <Typ>Grundoperation</Typ>
+    </SaveUsedBMO>
+  </lUsedBMO>
+  <Changed>true</Changed>
+</SaveRezept>

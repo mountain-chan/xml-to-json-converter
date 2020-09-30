@@ -2,7 +2,7 @@ import json
 import xmltodict
 import random
 
-with open("Recipe_followingVideo_1.xml") as xml_file:
+with open("simpleRez.xml") as xml_file:
     data_dict = xmltodict.parse(xml_file.read())
     xml_file.close()
 
@@ -32,5 +32,5 @@ def get_my_data(nodes_full_info):
 
 my_data = get_my_data(node_data)
 
-with open("my_data.json", "w") as json_file:
+with open("simpleRez.json", "w") as json_file:
     json.dump(my_data, json_file, indent=4)
