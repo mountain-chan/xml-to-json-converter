@@ -32,5 +32,5 @@ def get_my_data(nodes_full_info):
 
 my_data = get_my_data(node_data)
 
-with open("simpleRez.json", "w") as json_file:
+with open("recipe.json", "w") as json_file:
     json.dump(my_data, json_file, indent=4)
